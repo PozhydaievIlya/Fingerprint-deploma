@@ -32,7 +32,7 @@ public class Main {
 
 
 
-//  Comparing all to all with statistics at the end
+//1.  Comparing all to all with statistics at the end
 //        for(int pi = 101; pi <= 110; pi++){
 //            for (int pj = 1; pj <= 8; pj++){
 //                dictionary.put(pi + "_" + pj, 0);
@@ -78,7 +78,7 @@ public class Main {
 //        }
 
 
-//  Comparing all fingerprints within the same individual, with statistics at the end
+//2.  Comparing all fingerprints within the same individual, with statistics at the end
         for(int pi = 101; pi <= 110; pi++){
             for (int pj = 1; pj <= 8; pj++){
                 dictionary.put(pi + "_" + pj, 0);
